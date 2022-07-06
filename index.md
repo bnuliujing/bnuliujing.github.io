@@ -4,47 +4,38 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+My name is Jing Liu and I’m a Ph.D. student in School of Systems Science, Beijing Normal University. 
 
-## Research Interests
+My current research interest is the interdisciplinary between unsupervised machine learning, tensor network, statistical physics and combinatorial optimization problems.
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
-
-## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+ Here is my [CV](./CV.pdf) and [Google Scholar](https://scholar.google.com/citations?user=MI6oTxsAAAAJ&hl=en).
 
 ## Publications
 
-- **Mnemonics Training: Multi-Class Incremental Learning without Forgetting**
+- **Tensor networks for unsupervised machine learning**
   <br>
-  **Yaoyao Liu**, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  **Jing Liu**, Sujie Li, Jiang Zhang, Pan Zhang
   <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2020**.
-  <br>
-  [[PDF](https://arxiv.org/pdf/2002.10211.pdf)] [[Code](https://github.com/yaoyao-liu/mnemonics)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+  arXiv:2106.12974
+  [[link](https://arxiv.org/abs/2106.12974)]
 
-- **Learning to Self-Train for Semi-Supervised Few-Shot Classification**
+- **Gumbel-Softmax Optimization: A Simple General Framework for Combinatorial Optimization Problems on Graphs**
   <br>
-  Xinzhe Li, Qianru Sun, **Yaoyao Liu**, Shibao Zheng, Qin Zhou, Tat-Seng Chua, Bernt Schiele
+  **Jing Liu**, Fei Gao, Jiang Zhang
   <br>
-  33rd Conference on Neural Information Processing Systems. **NeurIPS 2019**.
-  <br>
-  [[PDF](http://papers.nips.cc/paper/9216-learning-to-self-train-for-semi-supervised-few-shot-classification.pdf)] [[Code](https://github.com/xinzheli1217/learning-to-self-train)]
+  COMPLEX NETWORKS 2019: Complex Networks and Their Applications VIII pp 879–890
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-36687-2_73)]
 
-- **Meta-Transfer Learning for Few-Shot Learning**
+- **A general deep learning framework for network reconstruction and dynamics learning**
   <br>
-  Qianru Sun\*, **Yaoyao Liu\***, Tat-Seng Chua, Bernt Schiele
+  Zhang Zhang, Yi Zhao, **Jing Liu**, Shuo Wang, Ruyi Tao, Ruyue Xin, Jiang Zhang
   <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2019**.
-  <br>
-  [[PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_Meta-Transfer_Learning_for_Few-Shot_Learning_CVPR_2019_paper.pdf)] [[Code](https://github.com/yaoyao-liu/meta-transfer-learning)] [[Project](https://mtl.yyliu.net/)]
+  Applied Network Science 4 (110), 1-17
+  [[link](https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0194-4)]
 
-## Services
-
-- Conference Reviewers: NeurIPS 2020, CVPR 2020.
-- Journal Reviewers: T-PAMI, IJCV.
+- **Coevolution of agent’s behavior and noise parameters in majority vote game on multilayer networks**
+  <br>
+  **Jing Liu**, Ying Fan, Jiang Zhang, Zengru Di
+  <br>
+  New Journal of Physics 21 (1), 015007
+  [[link](https://iopscience.iop.org/article/10.1088/1367-2630/ab00aa/pdf)]
