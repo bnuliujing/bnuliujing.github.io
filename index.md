@@ -12,6 +12,13 @@ My current research interest is the interdisciplinary between unsupervised machi
 
 ## Publications
 
+- **Solving nonequilibrium statistical mechanics by evolving autoregressive neural networks**
+  <br>
+  Ying Tang \*, **Jing Liu** \*, Jiang Zhang, Pan Zhang ( \* contributed equally)
+  <br>
+  arXiv:2208.08266
+  [[link](http://arxiv.org/abs/2208.08266)]
+
 - **Tensor networks for unsupervised machine learning**
   <br>
   **Jing Liu**, Sujie Li, Jiang Zhang, Pan Zhang
