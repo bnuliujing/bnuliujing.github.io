@@ -1,11 +1,8 @@
 # Minimal Light 主题
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
-[![gem](https://img.shields.io/gem/v/minimal-light?style=flat-square&logo=rubygems&color=E9573F)](https://rubygems.org/gems/minimal-light)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.5-orange.svg?style=flat-square&logo=jekyll)](https://jekyllrb.com/)
-[![Build Status](https://img.shields.io/travis/com/yaoyao-liu/minimal-light?style=flat-square&logo=travis-ci&color=3EAAAF)](https://travis-ci.com/yaoyao-liu/minimal-light)
 
-\[[在线演示](https://minimal-light.yyliu.net/)\] \[[繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
+\[[在线演示](https://minimal-light-theme.yliu.me/)\] \[[繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
  
 *这个项目包含我主页的源代码. 基于 GitHub 官方主题之一 [minimal](https://github.com/orderedlist/minimal) 创建*
 <br>
@@ -36,26 +33,6 @@ remote_theme: yaoyao-liu/minimal-light
 
 然后，你可以根据[这里的说明](https://docs.github.com/cn/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)开启这个仓库的GitHub Pages服务。
 
-#### 在GitHub上使用自定义域名
-
-在你的 DNS 设置中添加如下的`CNAME`解析记录：
-
-```
-Host: 根据需求自定义，例如： "www" 
-Target / Canonical name: your-username.github.io.
-TTL: 10 min
-```
-你也可以添加如下的`A`解析记录（如果无法使用`CNAME`记录的话）：
-```
-Host: 根据需求自定义，例如： "www" 或 "@"
-IP: 185.199.108.153
-    185.199.109.153
-    185.199.110.153
-    185.199.111.153
-TTL: 10 min
-```
-然后，编辑这个仓库中 [CNAME](./CNAME) 文件的内容为你自定义的域名。
-
 ### 通过Jekyll在本地使用
 
 *首先你需要安装 [Ruby](https://www.ruby-lang.org/en/) 和 [Jekyll](https://jekyllrb.com/).*
@@ -81,21 +58,33 @@ bundle exec jekyll server
 ### 配置变量
 
 Minimal Light 主题有以下的变量, 你可以在`_config.yml`文件中修改:
-
+  
   ```yaml
+# 基本信息
 title: 你的名字
+position: Ph.D. Student
 affiliation: 你的单位
 email: yourname (at) example.edu
+
+# 搜索引擎优化 (SEO)
+keywords: minimal light
+description: 在这里输入网页描述.
+canonical: https://minimal-light-theme.yliu.me/
+
+# 链接
 google_scholar: https://scholar.google.com/
-github_link: https://github.com/yaoyao-liu/minimal-light
+cv_link: files/Curriculum_Vitae.pdf
+github_link: https://github.com/
 linkedin: https://www.linkedin.com/
+twitter: https://twitter.com/
+
+# 图片路径
 avatar: ./assets/img/avatar.png
-google_analytics: UA-111540567-4
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
-description: 在这里输入网页描述.
-canonical: https://minimal-light.yyliu.net/
-remote_theme: yaoyao-liu/minimal-light
+
+# Google Analytics ID
+google_analytics: UA-111540567-4
   ```
 ### 编辑 `index.md`
 
@@ -136,3 +125,5 @@ remote_theme: yaoyao-liu/minimal-light
 * [pages-themes/minimal](https://github.com/pages-themes/minimal)
 
 * [orderedlist/minimal](https://github.com/orderedlist/minimal)
+
+* [al-folio](https://github.com/alshedivat/al-folio)

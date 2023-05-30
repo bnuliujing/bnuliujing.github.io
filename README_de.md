@@ -2,11 +2,8 @@
 # Das Minimal Light Thema
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
-[![gem](https://img.shields.io/gem/v/minimal-light?style=flat-square&logo=rubygems&color=E9573F)](https://rubygems.org/gems/minimal-light)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.5-orange.svg?style=flat-square&logo=jekyll)](https://jekyllrb.com/)
-[![Build Status](https://img.shields.io/travis/com/yaoyao-liu/minimal-light?style=flat-square&logo=travis-ci&color=3EAAAF)](https://travis-ci.com/yaoyao-liu/minimal-light)
 
-\[[Demo](https://minimal-light.yyliu.net/)\]  \[[English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md)\]
+\[[Demo](https://minimal-light-theme.yliu.me/)\]  \[[English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md)\]
  
 *Dies ist der Quellcode meiner Homepage. Ich baue diese Website basierend auf [minimal](https://github.com/orderedlist/minimal).*
 <br>
@@ -38,26 +35,6 @@ Sie können dieses Repository auch verzweigen (oder [Verwenden Sie dieses Reposi
 
 Dann müssen Sie die GitHub-Seiten für dieses Repository aktivieren, indem Sie die Schritte [hier](https://docs.github.com/de/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) ausführen.
 
-#### Using a custom domain on GitHub
-
-Fügen Sie Ihrer Domain einen `CNAME`-DNS-Eintrag wie folgt hinzu: 
-```
-Host: irgendwas du willst. z.B., "www" 
-Target / Canonical name: your-username.github.io.
-TTL: 10 min
-```
-Sie können anstelle des `CNAME`-Eintrags auch einen DNS-Eintrag `A` wie folgt hinzufügen:
-```
-Host: irgendwas du willst. z.B., "www" or "@"
-IP: 185.199.108.153
-    185.199.109.153
-    185.199.110.153
-    185.199.111.153
-TTL: 10 min
-```
-
-Ändern Sie dann den Inhalt der Datei [CNAME](./CNAME) in diesem Repository in Ihre Domain.
-
 ### Lokal mit Jekyll verwenden
 
 *Sie müssen [Ruby](https://www.ruby-lang.org/en/) und [Jekyll](https://jekyllrb.com/) fisrt installieren.*
@@ -85,19 +62,35 @@ Zeigen Sie die Live-Seite mit `localhost` an:
 Das Minimal Light-Thema berücksichtigt die folgenden Variablen, wenn es in der `_config.yml` Ihrer Site festgelegt ist:
 
   ```yaml
-title: Dein Name
+# Grundinformation
+title: Ihren Namen
+position: Ph.D. Student
 affiliation: Ihre Zugehörigkeit
 email: yourname (at) example.edu
+
+# Suchmaschinenoptimierung (SEO)
+# Die folgenden Informationen werden verwendet, um den Website-Traffic von Suchmaschinen, z. B. Google, zu verbessern.
+keywords: minimal light
+description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+canonical: https://minimal-light-theme.yliu.me/
+
+# Verknüpfungen
+# Wenn Sie eine davon nicht benötigen, können Sie die entsprechende Zeile löschen.
 google_scholar: https://scholar.google.com/
-github_link: https://github.com/yaoyao-liu/minimal-light
+cv_link: files/Curriculum_Vitae.pdf
+github_link: https://github.com/
 linkedin: https://www.linkedin.com/
+twitter: https://twitter.com/
+
+# Bilder (z. B. Ihr Profilbild und das Favicon Ihrer Website)
+# "favicon" und "favicon_dark" werden für den Hell- bzw. Dunkelmodus verwendet.
 avatar: ./assets/img/avatar.png
-google_analytics: UA-111540567-4
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light.yyliu.net/
-remote_theme: yaoyao-liu/minimal-light
+
+# Google Analytics ID
+# Bitte entfernen Sie dies, wenn Sie Google Analytics nicht verwenden
+google_analytics: UA-111540567-4
   ```
 ### Bearbeiten von `index.md`
 
@@ -138,3 +131,5 @@ Unser Projekt verwendet den Quellcode aus den folgenden Repositorys:
 * [pages-themes/minimal](https://github.com/pages-themes/minimal)
 
 * [orderedlist/minimal](https://github.com/orderedlist/minimal)
+
+* [al-folio](https://github.com/alshedivat/al-folio)
