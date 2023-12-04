@@ -3,10 +3,10 @@ layout: homepage
 ---
 
 ## About Me
-
-I received my Ph.D. degree from School of Systems Science, Beijing Normal University in 2023 (supervised by [Prof. Jiang Zhang](https://jake.swarma.org/) and [Prof. Pan Zhang](http://home.itp.ac.cn/~panzhang/)).
-Prior to my Ph.D., I received my bachelor's degree from Department of Physics, Beijing Normal University in 2018.
-My research interests focuses on using machine learning methods such as generative models to solve computationally hard problems in complex physical systems.
+I am  now a Postdoctoral Researcher at the Institute of Theoretical Physics, Chinese Academy of Sciences.
+I received my Ph.D. degree from the School of Systems Science, Beijing Normal University in 2023 (co-supervised by [Prof. Jiang Zhang](https://jake.swarma.org/) and [Prof. Pan Zhang](http://home.itp.ac.cn/~panzhang/)).
+Prior to that, I graduated from the Department of Physics, Beijing Normal University in 2018. 
+I previously served as a Senior Research Specialist in Zhejiang Lab.
 
 ## Publications
 
