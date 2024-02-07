@@ -10,13 +10,13 @@ I previously served as a Senior Research Specialist in Zhejiang Lab.
 
 ## Publications
 
+- <div><b>Learning nonequilibrium statistical mechanics and dynamical phase transitions</b></div>
+  <div><em>Ying Tang*, <strong>Jing Liu</strong>*, Jiang Zhang, Pan Zhang (* contributed equally)</em></div>
+  Nature Communications volume 15, Article number: 1117 (2024) <a href="https://www.nature.com/articles/s41467-024-45172-8">[link]</a><a href="https://github.com/Machine-learning-and-complex-systems/DPT">[code]</a>
+
 - <div><b>Tensor networks for unsupervised machine learning</b></div>
   <div><em><strong>Jing Liu</strong>, Sujie Li, Jiang Zhang, Pan Zhang</em></div>
   Physical Review E 107 (1), L012103 <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.107.L012103">[link]</a><a href="https://github.com/bnuliujing/tn-for-unsup-ml">[code]</a>
-
-- <div><b>Solving nonequilibrium statistical mechanics by evolving autoregressive neural networks</b></div>
-  <div><em>Ying Tang*, <strong>Jing Liu</strong>*, Jiang Zhang, Pan Zhang (* contributed equally)</em></div>
-  arXiv:2208.08266 <a href="http://arxiv.org/abs/2208.08266">[link]</a> 
 
 - <div><b>Gumbel-softmax optimization: a simple general framework for combinatorial optimization problems on graphs</b></div>
   <div><em><strong>Jing Liu</strong>, Fei Gao, Jiang Zhang</em></div>
