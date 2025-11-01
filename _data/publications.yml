@@ -2,47 +2,38 @@ main:
 
   - title: "Tensor Network Markov Chain Monte Carlo: Efficient Sampling of Three-Dimensional Spin Glasses and Beyond"
     authors: Tao Chen, <strong>Jing Liu</strong>†, Youjin Deng†, Pan Zhang† († corresponding authors)
-    # conference_short: MICCAI
     conference: arXiv:2509.23945
     pdf: https://arxiv.org/pdf/2509.23945.pdf
     code: https://github.com/Fermichen99/TNMCMC
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/tnmcmc.jpg
-    # notes: Early Accept
+    image: /assets/img/tnmcmc.jpg
 
   - title: "BatchTNMC: Efficient sampling of two-dimensional spin glasses using tensor network Monte Carlo"
     authors: Tao Chen, Jingtong Zhang, <strong>Jing Liu</strong>†, Youjin Deng†, Pan Zhang† († corresponding authors)
-    # conference_short: NeurIPS
     conference: arXiv:2509.19006
     pdf: https://arxiv.org/pdf/2509.19006.pdf
     code: https://github.com/bnuliujing/BatchTNMC
-    image: ./assets/img/batchtnmc.jpg
+    image: /assets/img/batchtnmc.jpg
 
   - title: "Efficient optimization of variational autoregressive networks with natural gradient"
     authors: "<strong>Jing Liu</strong>, Ying Tang, Pan Zhang"
     conference: "Phys. Rev. E 111, 025304 (2025)"
     pdf: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.025304
     code: https://github.com/bnuliujing/ng_van
-    image: ./assets/img/ngvan.jpg
+    image: /assets/img/ngvan.jpg
 
   - title: "Learning nonequilibrium statistical mechanics and dynamical phase transitions"
     authors: "Ying Tang*, <strong>Jing Liu</strong>*, Jiang Zhang, Pan Zhang (* contributed equally)"
     conference: "Nat Commun 15, 1117 (2024)"
     pdf: https://www.nature.com/articles/s41467-024-45172-8
     code: https://github.com/Machine-learning-and-complex-systems/DPT
-    image: ./assets/img/noneq.jpg
+    image: /assets/img/noneq.jpg
 
   - title: "Tensor networks for unsupervised machine learning"
     authors: "<strong>Jing Liu</strong>, Sujie Li, Jiang Zhang, Pan Zhang"
     conference: "Phys. Rev. E 107, L012103 (2023)"
     pdf: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.107.L012103
     code: https://github.com/bnuliujing/tn-for-unsup-ml
-    image: ./assets/img/amps.jpg
-
-  # - title: "Coevolution of agent’s behavior and noise parameters in majority vote game on multilayer networks"
-  #   authors: "<strong>Jing Liu</strong>, Ying Fan, Jiang Zhang, Zengru Di"
-  #   conference: "New J. Phys. 21 015007"
-  #   pdf: https://iopscience.iop.org/article/10.1088/1367-2630/ab00aa
+    image: /assets/img/amps.jpg
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
   #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
@@ -53,4 +44,4 @@ main:
   #   pdf: https://class-il.mpi-inf.mpg.de/mnemonics/
   #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
   #   notes: Oral Presentation
-  #   image: ./assets/img/teaser_example.png
+  #   image: /assets/img/teaser_example.png
