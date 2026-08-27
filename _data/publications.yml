@@ -1,18 +1,18 @@
 main:
 
-  - title: "Tensor Network Markov Chain Monte Carlo: Efficient Sampling of Three-Dimensional Spin Glasses and Beyond"
-    authors: Tao Chen, <strong>Jing Liu</strong>†, Youjin Deng†, Pan Zhang† († corresponding authors)
-    conference: arXiv:2509.23945
-    pdf: https://arxiv.org/pdf/2509.23945.pdf
-    code: https://github.com/Fermichen99/TNMCMC
-    image: /assets/img/tnmcmc.jpg
+  - title: "Exact autoregressive sampling of planar Ising spin glasses via the Kac–Ward theory"
+    authors: <strong>Jing Liu</strong>, Tao Chen, Tianrui Che, Lei Wang, Youjin Deng, Pan Zhang
+    conference: arXiv:2608.24382 (2026)
+    pdf: https://arxiv.org/abs/2608.24382
+    code: https://github.com/bnuliujing/pykacward
+    image: /assets/img/pykacward.jpg
 
-  - title: "BatchTNMC: Efficient sampling of two-dimensional spin glasses using tensor network Monte Carlo"
-    authors: Tao Chen, Jingtong Zhang, <strong>Jing Liu</strong>†, Youjin Deng†, Pan Zhang† († corresponding authors)
-    conference: arXiv:2509.19006
-    pdf: https://arxiv.org/pdf/2509.19006.pdf
-    code: https://github.com/bnuliujing/BatchTNMC
-    image: /assets/img/batchtnmc.jpg
+  # - title: "Tensor-network Markov-chain Monte Carlo: Efficient sampling of three-dimensional spin glasses"
+  #   authors: Tao Chen, <strong>Jing Liu</strong>†, Youjin Deng†, Pan Zhang† († corresponding authors)
+  #   conference: "Phys. Rev. Lett. (2026)"
+  #   pdf: https://doi.org/10.1103/96lr-z7tb
+  #   code: https://github.com/Fermichen99/TNMCMC
+  #   image: /assets/img/tnmcmc.jpg
 
   - title: "Efficient optimization of variational autoregressive networks with natural gradient"
     authors: "<strong>Jing Liu</strong>, Ying Tang, Pan Zhang"
