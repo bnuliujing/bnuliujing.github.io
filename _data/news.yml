@@ -5,10 +5,14 @@
 #   zh:   Chinese text (HTML links allowed)
 main:
 
-  - date: "2026-09-10"
-    en: 'Our paper on tensor-network Monte Carlo sampling of 3D spin glasses is published in <a href="https://doi.org/10.1103/96lr-z7tb">Physical Review Letters</a>.'
-    zh: '我们关于三维自旋玻璃张量网络蒙特卡洛采样的论文发表于 <a href="https://doi.org/10.1103/96lr-z7tb">Physical Review Letters</a>.'
+  - date: "2026-09"
+    en: 'Our paper on foundation variational autoregressive networks is now on <a href="https://arxiv.org/abs/2609.11336">arXiv:2609.11336</a>.'
+    zh: '我们关于foundation variational autoregressive networks的论文已上传至 <a href="https://arxiv.org/abs/2609.11336">arXiv:2609.11336</a>.'
 
-  - date: "2026-08-26"
+  - date: "2026-09"
+    en: 'Our paper on tensor-network Markov chain Monte Carlo is published in <a href="https://doi.org/10.1103/96lr-z7tb">Physical Review Letters</a>.'
+    zh: '我们关于张量网络马尔可夫链蒙特卡洛的论文发表于 <a href="https://doi.org/10.1103/96lr-z7tb">Physical Review Letters</a>.'
+
+  - date: "2026-08"
     en: 'Our paper on exact sampling of planar Ising spin glasses is now on <a href="https://arxiv.org/abs/2608.24382">arXiv:2608.24382</a>, with code released on <a href="https://github.com/bnuliujing/pykacward">GitHub</a>.'
     zh: '我们关于平面 Ising 自旋玻璃精确采样的论文已上传至 <a href="https://arxiv.org/abs/2608.24382">arXiv:2608.24382</a>，代码已在 <a href="https://github.com/bnuliujing/pykacward">GitHub</a> 开源.'

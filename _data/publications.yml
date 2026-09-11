@@ -1,5 +1,11 @@
 main:
 
+  - title: "Universal Sampling of Spin Systems across Quenched Disorder"
+    authors: <strong>Jing Liu</strong>, Yeyuan Wu, Ying Tang, Pan Zhang
+    conference: arXiv:2609.11336 (2026)
+    pdf: https://arxiv.org/abs/2609.11336
+    image: /assets/img/fvan.jpg
+
   - title: "Tensor-network Markov-chain Monte Carlo: Efficient sampling of three-dimensional spin glasses"
     authors: Tao Chen, <strong>Jing Liu</strong>†, Youjin Deng†, Pan Zhang† († corresponding authors)
     conference: "Phys. Rev. Lett. 137, 117101 (2026)"
@@ -7,12 +13,12 @@ main:
     code: https://github.com/Fermichen99/TNMCMC
     image: /assets/img/tnmcmc.jpg
 
-  - title: "Exact autoregressive sampling of planar Ising spin glasses via the Kac–Ward theory"
-    authors: <strong>Jing Liu</strong>, Tao Chen, Tianrui Che, Lei Wang, Youjin Deng, Pan Zhang
-    conference: arXiv:2608.24382 (2026)
-    pdf: https://arxiv.org/abs/2608.24382
-    code: https://github.com/bnuliujing/pykacward
-    image: /assets/img/pykacward.jpg
+  # - title: "Exact autoregressive sampling of planar Ising spin glasses via the Kac–Ward theory"
+  #   authors: <strong>Jing Liu</strong>, Tao Chen, Tianrui Che, Lei Wang, Youjin Deng, Pan Zhang
+  #   conference: arXiv:2608.24382 (2026)
+  #   pdf: https://arxiv.org/abs/2608.24382
+  #   code: https://github.com/bnuliujing/pykacward
+  #   image: /assets/img/pykacward.jpg
 
   - title: "Efficient optimization of variational autoregressive networks with natural gradient"
     authors: "<strong>Jing Liu</strong>, Ying Tang, Pan Zhang"
