@@ -86,6 +86,7 @@ Edit `_data/publications.yml`:
 - News defined in `_data/news.yml`, newest first; each item has `date` (displayed as-is, e.g. `YYYY-MM`), `en`, and `zh` text fields (HTML links allowed in both)
 - One data file serves both languages: `_includes/news.md` renders the `en` field, `_includes/news_zh.md` renders the `zh` field
 - Add news (paper accepted/published, arXiv posting, talks, awards) by prepending an entry to `main:` in `_data/news.yml`
+- Pinned items (e.g. the graduate recruitment notice): any entry with `pinned: true` is rendered at the top of the list in both languages, regardless of its position in the YAML, with an amber highlight (`<li class="news-pinned">`, styled in `assets/css/publications.css`). Keep exactly one pinned entry; do not remove it when adding news
 - Wording convention: start with `Our paper on <short topic>` (a 3-6 word topic phrase — NOT the full paper title, NOT "New paper"), then a standard news verb:
   - arXiv posting: "Our paper on X is now on arXiv:NNNN.NNNNN" / 我们关于 X 的论文已上传至 arXiv
   - Accepted: "Our paper on X is accepted by/to *Journal*" / 我们关于 X 的论文被 *Journal* 接收

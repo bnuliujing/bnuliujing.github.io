@@ -4,11 +4,23 @@
 <ul style="margin-top: 15px; margin-bottom: 10px; padding-left: 20px;">
 
 {% for item in site.data.news.main %}
+{% if item.pinned %}
+
+<li class="news-pinned">
+  <strong>{{ item.date }}</strong> &nbsp;{{ item.zh }}
+</li>
+
+{% endif %}
+{% endfor %}
+
+{% for item in site.data.news.main %}
+{% unless item.pinned %}
 
 <li style="margin-bottom: 8px;">
   <strong>{{ item.date }}</strong> &nbsp;{{ item.zh }}
 </li>
 
+{% endunless %}
 {% endfor %}
 
 </ul>

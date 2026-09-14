@@ -3,7 +3,13 @@
 #   date: "YYYY-MM" (displayed as-is, so free-form like "2026" also works)
 #   en:   English text (HTML links allowed)
 #   zh:   Chinese text (HTML links allowed)
+#   pinned: true (optional) — always rendered at the top of the list, highlighted
 main:
+
+  - date: "📌"
+    pinned: true
+    en: '<strong>Graduate recruitment:</strong> I have one opening for a master''s student each year. Candidates with backgrounds in physics, systems science, computer science, and related fields are welcome to apply. Please contact me by email at jing.liu (at) bupt.edu.cn.'
+    zh: '<strong>研究生招生：</strong>每年招收硕士研究生 1 名，欢迎具有物理、系统科学、计算机等背景的同学报考。有意者请通过电子邮件与我联系：jing.liu (at) bupt.edu.cn。'
 
   - date: "2026-09"
     en: 'Our paper on foundation variational autoregressive networks is now on <a href="https://arxiv.org/abs/2609.11336">arXiv:2609.11336</a>.'

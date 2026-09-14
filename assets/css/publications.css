@@ -80,3 +80,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+/* Pinned recruitment notice at the top of the news list */
+.news-pinned { background: #FFF3CD; border-left: 4px solid #FFB300; border-radius: 4px; padding: 10px 12px; list-style: none; margin-bottom: 10px; }
+
+.news-pinned a { color: var(--global-theme-color); }
