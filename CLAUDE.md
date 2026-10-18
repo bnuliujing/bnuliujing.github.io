@@ -100,17 +100,15 @@ Edit `_data/publications.yml`:
 - Navigation between language versions via HTML links
 
 ### Deployment
-- Configured for GitHub Pages deployment
-- CNAME file points to custom domain if set
+- Configured for GitHub Pages deployment (user page `bnuliujing.github.io`, no CNAME needed)
 - Files excluded from build listed in `_config.yml`
 - Automatic rebuild on push to main branch
 
 ## File Naming Conventions
 
-- Publication images: descriptive names (e.g., `tnmcmc.jpg`, `batchtnmc.jpg`)
-- CV files: `CV.pdf` and `curriculum_vitae.pdf`
-- Profile images: `avatar.png`, `favicon.png`, `favicon_dark.png`
-- Backup files: `.bak` extension for temporary backups
+- Publication images: descriptive names (e.g., `tnmcmc.jpg`, `fvan.jpg`)
+- CV file: `CV.pdf`
+- Profile images: `jing_new.jpeg` (avatar), `lj.png` (favicon, light and dark)
 
 ## Important Notes
 
