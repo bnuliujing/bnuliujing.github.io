@@ -1,6 +1,6 @@
 # Jing Liu's Homepage
 
-Personal academic homepage of [Jing Liu (刘晶)](https://bnuliujing.github.io/), Ph.D. student at SPST, BUPT. Research on tensor networks, Markov chain Monte Carlo, statistical physics, and machine learning.
+Personal academic homepage of [Jing Liu (刘晶)](https://bnuliujing.github.io/), tenure-track assistant professor at SPST, BUPT. Research on tensor networks, Markov chain Monte Carlo, statistical physics, and machine learning.
 
 Built with [Jekyll](https://jekyllrb.com/) and the [Minimal Light](https://github.com/yaoyao-liu/minimal-light) theme, deployed via GitHub Pages.
 

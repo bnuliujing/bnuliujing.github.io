@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an academic personal website for Jing Liu (刘晶), Ph.D. student at SPST, BUPT. It's built using Jekyll with the Minimal Light theme and is deployed as a GitHub Pages site at `bnuliujing.github.io`.
+This is an academic personal website for Jing Liu (刘晶), tenure-track assistant professor at SPST, BUPT. It's built using Jekyll with the Minimal Light theme and is deployed as a GitHub Pages site at `bnuliujing.github.io`.
 
 ## Technology Stack
 
