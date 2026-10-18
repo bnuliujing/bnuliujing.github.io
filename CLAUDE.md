@@ -100,7 +100,7 @@ Edit `_data/publications.yml`:
 - Navigation between language versions via HTML links
 
 ### Deployment
-- Configured for GitHub Pages deployment (user page `bnuliujing.github.io`, no CNAME needed)
+- Configured for GitHub Pages deployment (user page `bnuliujing.github.io`; `CNAME` points to the custom domain `jingliuphy.cn`, keep this file)
 - Files excluded from build listed in `_config.yml`
 - Automatic rebuild on push to main branch
 
