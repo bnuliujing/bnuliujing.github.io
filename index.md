@@ -8,7 +8,7 @@ I am currently a tenure-track assistant professor at the [School of Physical Sci
 I received my Ph.D. degree from the School of [Systems Science, Beijing Normal University](https://sss.bnu.edu.cn/) in 2023, and completed postdoctoral research at the [Institute of Theoretical Physics, Chinese Academy of Sciences](https://itp.cas.cn/).
 My research interests lie in statistical physics and machine learning.
 
-[中文版](/zh/)
+[中文版](/zh)
 
 {% include_relative _includes/news.md %}
 
